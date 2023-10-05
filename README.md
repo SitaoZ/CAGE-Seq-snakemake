@@ -1,4 +1,4 @@
-# CAGE-Seq-snakemake
+### CAGE-Seq-snakemake
 The snakemake pipeline for CAGE-Seq analysis
 
 The CAGE-Seq-snakemake is a bioinformatics analysis pipeline used for CAGE-seq sequencing data.
