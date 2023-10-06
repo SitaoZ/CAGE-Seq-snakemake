@@ -16,7 +16,7 @@ The pipeline is built using snakemake framework and takes raw fastq-files as inp
 8. Peak identification ([DPI](https://github.com/hkawaji/dpi1))
 9. CAGE tag clustering QC ([RSeQC](https://rseqc.sourceforge.net/))
 
-#### Step 1: Conda environment
+#### Step 1: conda environment
 ```bash
 conda create -n snakemake python=3.10.6
 conda activate snakemake
