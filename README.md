@@ -15,7 +15,8 @@ The pipeline is built using snakemake framework and takes raw fastq-files as inp
 7. BAM to BED and CTSS ([BEDtools](https://github.com/arq5x/bedtools2))
 8. Peak identification ([DPI](https://github.com/hkawaji/dpi1))
 9. CAGE tag clustering QC ([RSeQC](https://rseqc.sourceforge.net/))
-10. BED to GFF ([Genome tools](https://github.com/genometools/genometools/releases)) 
+10. BED to GFF ([Genome tools](https://github.com/genometools/genometools/releases))
+11. Index tab file ([tabix](http://www.htslib.org/doc/tabix.html))
 
 #### Step 1: conda environment
 ```bash
