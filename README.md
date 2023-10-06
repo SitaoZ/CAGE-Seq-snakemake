@@ -3,10 +3,10 @@ The snakemake pipeline for CAGE-Seq analysis
 
 The CAGE-Seq-snakemake is a bioinformatics analysis pipeline used for CAGE-seq sequencing data.
 
-The pipeline is built using snakemake framework and takes raw fastq-files as input and includes steps for linker and artefact trimming (cutadapt), rRNA removal (SortMeRNA, alignment to a reference genome (HISAT2) and CAGE tag counting and clustering (paraclu). Additionally, several quality control steps (FastQC, RSeQC, MultiQC) are included to allow for easy verification of the results after a run.
+The pipeline is built using snakemake framework and takes raw fastq-files as input and includes steps for linker and artefact trimming (cutadapt), rRNA removal (SortMeRNA, alignment to a reference genome (HISAT2) and CAGE tag counting and clustering (BEDtools and DPI). Additionally, several quality control steps (FastQC, RSeQC) are included to allow for easy verification of the results after a run.
 
 #### Software dependencies
-1. Input read QC ([FASTQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
+1. Input read QC ([FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
 2. Filter and adapter trimming ([Cutadapt](https://github.com/marcelm/cutadapt))
 3. rRNA removing ([SortMeRNA](https://github.com/sortmerna/sortmerna))
 4. Reference alignment ([HISAT2](https://github.com/DaehwanKimLab/hisat2))
