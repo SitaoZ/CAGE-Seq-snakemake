@@ -23,7 +23,7 @@ conda activate snakemake
 conda install -c bioconda fastqc=0.12.1 cutadapt=3.1 sortmerna=4.3.4 hisat2=2.2.1 samtools=1.3.1 bedtools=v2.31.0 rseqc=5.0.1
 ```
 #### Step 2: config.yaml
-First, he config.yaml should be edited. If you don't know YAML ,the link is useful [yaml](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started).
+First, he config.yaml should be edited. If you don't know YAML ,the link is useful ([yaml](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started)).
 
 ```bash
 cat config.yaml
