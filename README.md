@@ -44,7 +44,7 @@ software:
   samtools: /home/zhusitao/anaconda3/bin/samtools
   Rscript: /home/zhusitao/anaconda3/envs/R/bin/Rscript
 
-USED_GTF: "/path/GTF/ath.gtf"
+USED_GTF: /path/GTF/ath.gtf
 ```
 
 #### Step 3: snakemake
