@@ -1,0 +1,22 @@
+samples:
+  DRR093534_1: /data/zhusitao/project/04.learning/snakemake/03.CAGE-Seq/a/DRR093534_1.fastq.gz,
+  DRR093535_1: /data/zhusitao/project/04.learning/snakemake/03.CAGE-Seq/a/DRR093535_1.fastq.gz
+
+workdir:
+  "/data/zhusitao/project/04.learning/snakemake/03.CAGE-Seq"
+
+adapter:
+  forward: AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAG
+  backward: AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA
+
+software:
+  fastqc: /home/zhusitao/anaconda3/envs/snakemake/bin/fastqc
+  cutadapt: /home/zhusitao/anaconda3/bin/cutadapt
+  sortmerna: /home/zhusitao/software/sortmerna-4.3.4-Linux/bin/sortmerna
+  bowtie2: /home/zhusitao/anaconda3/bin/bowtie2
+  hisat2: /home/zhusitao/anaconda3/bin/hisat2
+  samtools: /home/zhusitao/anaconda3/bin/samtools
+  Rscript: /home/zhusitao/anaconda3/envs/R/bin/Rscript
+
+GTF: /path/GTF/ath.gtf
+GFF: /data/zhusitao/project/04.learning/snakemake/03.CAGE-Seq/scripts/All_isoforms_V1.0_GeneID_transformed.gff 
